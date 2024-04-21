@@ -1,0 +1,207 @@
+html, body
+{
+    margin: 0px;
+}
+
+
+/* Text */
+body {
+    font-family: 'Arimo', sans-serif;
+    background-color: #902f12;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 32px;  
+    color: white;  
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 30px; 
+    color: white;  
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 26px;  
+    color: white;  
+    text-align: center;
+}
+
+p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;  
+    color: white;  
+    text-align: center;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+}
+
+.hero, .content, .card, .accordion, .footer {
+    padding: 20px;
+}
+
+/* Hero Banner Image */
+.hero {
+    background-color: #cb5b39;
+    position: relative; 
+}
+
+.hero img {
+    opacity: 0.9; 
+    max-width: 100%;
+    border-radius: 20px;
+    transform: scale(0.9);
+}
+
+/* Body */
+.content {
+    background-color: none;
+    color: #F0EFEC;
+    border: 10px solid none;
+    border-radius: 60px;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+  }
+  
+  .card {
+    background-color: #c84922;
+    position: relative;  
+    border-radius: 60px;
+  }
+
+.image-size {  
+    max-width: 80%;  
+    border-radius: 30px;
+    padding: 20px;
+  }
+
+  .video-container {
+    background-color: #2b2828;  
+    border: 15px solid #2b2828;
+    border-radius: 10px;
+    & iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+    }
+}
+.video-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 30px;
+}
+
+.text-container {
+    .video-section {
+        max-width: 1000px;  margin: 0 auto;  padding: 20px;
+    }
+
+    .video-container {
+        background-color: #eee;  border: 1px solid #ddd;  }
+    
+    .text-container {
+        text-align: justify; 
+    }
+    .video {
+        margin: 20px;
+        padding: 50px;
+    }
+}
+
+/*Go back Button*/
+button {
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;   
+    text-align: left;
+    border: none;
+    padding: 20px;
+    background: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    transition: text-decoration 0.3s;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+.accordion {
+    background-color: #902f12;
+    color: #F0EFEC;
+    padding:45px;
+    text-align: center;
+}
+
+/*REVEAL-HIDE BUTTON*/
+.wrapper{
+    position: relative;
+    top: 40vh;
+  }
+  #button{
+    border: 5px solid #FFAB33;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: auto;
+    background: #FF5733;
+  }
+  
+  #button:hover{
+    background: #DFF30B;
+  }
+  
+  #message{
+    font-size: 26px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .hide{
+    visibility: hidden;
+  }
+  
+  .reveal{
+    visibility: visible;
+  }
+  
+
+.footer {
+    background-color: #2b2828;
+    color: #F0EFEC;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .copyright{
+    padding:10px;
+  }
+
+  /* credits
+  https://fontawesome.com/icons/cloud-bolt?f=classic&s=solid
+https://fontawesome.com/icons/user?f=classic&s=solid
+https://fontawesome.com/icons/meteor?f=classic&s=solid
+https://fontawesome.com/icons/linkedin?f=brands&s=solid
+https://fontawesome.com/icons/square-instagram?f=brands&s=solid
+https://fontawesome.com/icons/play?f=classic&s=solid
+https://fontawesome.com/icons/clipboard-question?f=classic&s=solid
+*/

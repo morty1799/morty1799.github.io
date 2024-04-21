@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carmen's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/33978fb2ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/contact.css"> 
+    <link rel="stylesheet" href="styles/responsive.css"> 
+    <link rel="stylesheet" href="styles/icon.css"> 
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <!--
+    <header class="hero">
+        <img src="assets/Cover Page.png" alt="Carmen's Portfolio" class="hero-image"> 
+    </header>
+        
+        <div class="container">
+         <section class="content">
+            <h2>Why should I work with you? <i class="fa-solid fa-user"></i></i> </h2>
+            <p> You're looking at your new favorite graphic designer! <i class="fa-solid fa-meteor"></i> </i><br> A creative graphic designer with over one year of experience specializing in visually impactful designs. I prioritize understanding the needs of my clients and delivering optimal results for them.In addition to my skills in branding, print design, illustration, and social media graphics, I demonstrate a strong commitment to continuous learning and innovation. I am unafraid to challenge conventions and actively seek opportunities to enhance and diversify my visual design skills. </p>
+        </section>
+        -->
+
+        <header class="header" id="home">
+          <div class="container red topBotomBordersOut">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="hightlight.html">HIGHLIGHT</a>
+            <a href="#contact">CONTACT</a>
+          </div>
+        </header>
+        
+        <header class="hero">
+          <img src="assets/Cover Page.png" alt="Carmen Lau's Cover Image" class="hero-image"> 
+        </header>
+          
+        <div class="container">
+          <section id="about" class="content">
+              <h2> About Me <i class="fa-solid fa-user"></i></i> </h2>
+              <p> You're looking at your favorite graphic designer! <i class="fa-solid fa-meteor"></i> </i><br> A creative graphic designer with over one year of experience specializing in visually impactful designs. I prioritize understanding the needs of my clients and delivering optimal results for them.In addition to my skills in branding, print design, illustration, and social media graphics, I demonstrate a strong commitment to continuous learning and innovation. I am unafraid to challenge conventions and actively seek opportunities to enhance and diversify my visual design skills. </p>
+          </section>
+        </div>
+
+        <section id="contact" class="accordion">
+            <h2>FAQ <i class="fa-solid fa-clipboard-question"></i></i></h2>
+            <details>
+                <summary>How to collabrborate with me?</summary>
+                <p> I'm open to the new work opportunity. Please reach me at: <a href="mailto:lllau.carmen@gmail.com" style="color: white;"> lllau.carmen@gmail.com</a></p>
+            </details>
+            <details>
+                <summary>Can I see more of your previous works?</summary>
+                <p>Yes, this website is still under construction and more content will be displayed soon.</p>
+            </details>
+        </section>
+    </body>
+
+
+    
+    <div id="dynamic-content"></div>
+  <button id="myBtn">More info</button>
+<p id="btn"></p>
+
+<script>
+const element = document.getElementById("myBtn");
+element.addEventListener("click", function() {
+  document.getElementById("btn").innerHTML = "A new music video project is on the way - make sure to stay tuned for it! ";
+});
+</script>
+
+    <footer class="footer">
+        <div class="copyright">
+            &copy; 
+            <script>document.write(new Date().getFullYear());</script> 
+            Copyright, Carmen Lau
+          </div>
+          
+          <a href="https://www.instagram.com/gojohnny.go/">
+            <i class="fa-brands fa-square-instagram" style="color: white;" title="Carmen's Instagram profile"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/carmen-kml/">
+            <i class="fa-brands fa-linkedin" style="color: white;" title="Carmen's LinkedIn Profile"></i>
+      </footer>
+
+</html>

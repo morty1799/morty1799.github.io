@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carmen's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/33978fb2ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/responsive.css"> 
+    <link rel="stylesheet" href="styles/highlight.css">  
+    <link rel="stylesheet" href="styles/icon.css"> 
+    <script src="index.js"></script>
+</head>
+<body>
+    <!-- "Go back" button to index.html -->
+    <button onclick="goBack()">GO BACK</button> 
+
+    <div class="folder">
+        <div class="paper one"></div>
+        <div class="paper two"></div>
+        <div class="paper three"></div>
+        <div class="paper four"></div>
+      </div>
+
+    <section id="skills" class="card-section">
+        <h2>My Skills <i class="fa-solid fa-cloud-bolt"></i></h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="assets/pm.png" alt="Printed Material" class="image-size">
+            <h3 class="card-text">Printed Material</h3>
+            <p>Esquire Magazine - Best Buy section of the Magazine
+                <br>By Illustrator/Photoshop/InDesign</p>
+          </div>
+          <div class="card">
+            <img src="assets/i.png" alt="Illustration" class="image-size">
+            <h3 class="card-text">Illustration</h3>
+            <p>School Project - Prep the band promotion Material  
+                <br>By Illustrator/Photoshop/InDesign</p>
+          </div>
+          <div class="card">
+            <img src="assets/smp.png" alt="Social Media Post" class="image-size">
+            <h3 class="card-text">Social Media Posts & Props Making</h3>
+            <p>Ellemen Magazine
+                <br>By Illustrator/Photoshop/InDesign</p>
+          </div>
+        </div>
+      </section>
+
+    <section class="video-section">
+    <div class="row">
+        <div class="video-container">
+            <iframe title="Motion Graphics by Carmen Lau" width="560" height="315" src="https://www.youtube.com/embed/UnnPLqPvsEU" frameborder="0" allowfullscreen></iframe>
+        
+        </div>
+        <div class="text-container">
+            <h2>Motion Graphics <i class="fa-solid fa-video"></i></h2>
+            <p>This project involves collaborating with an independent musician from Hong Kong, AnnaHisbbuR. It marks my initial foray into creating motion graphics using Photoshop and Premier Pro, with a production timeline of approximately four weeks. The video's concept aligns well with the song's theme, focusing on a young girl's struggle with depression and her effort to connect with others facing similar challenges to foster a sense of unity. The video's main objective is to effectively communicate the song's message while also aiming to create a sleek and minimalistic look for both the music and its visuals.</p>
+        </div>
+    </div>
+
+    </section>
+    <script src="index.js"></script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
